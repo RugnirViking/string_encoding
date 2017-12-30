@@ -9,4 +9,7 @@ For our P1 project, we worked with data transfer using radio transmitters, for s
 ### Building
 Using ROS kinetic,
 
-Using a valid catkin workspace folder, place this repository into the src folder and `catkin_make` on the base folder. 
+1) Using a valid catkin workspace folder, place this repository into the src folder
+2) run `catkin_make` on the base folder. 
+3) cd to the devel folder and run `source setup.bash`
+4) use `rosrun string_encoded pub_string` to run the publisher and `rosrun string_encoded sup_string` to run the subscriber
