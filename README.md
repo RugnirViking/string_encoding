@@ -12,4 +12,4 @@ Using ROS kinetic,
 1) Using a valid catkin workspace folder, place this repository into the src folder
 2) run `catkin_make` on the base folder. 
 3) cd to the devel folder and run `source setup.bash`
-4) use `rosrun string_encoding pub_string` to run the publisher and `rosrun string_encoding sup_string` to run the subscriber
+4) use `rosrun string_encoding pub_string` to run the publisher and `rosrun string_encoding sub_string` to run the subscriber
